@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2tvoRiKLHoIxTUFT2aaTFu53FtkSd0l28QO/6/R3bgQCdSC56+2F6HEx+a19ZD0bJZYPbwchipKeSTAcOft9rA==",
+  "dgSpecHash": "vDQLICbTPkuhtUPVxkGzWXmzUsLrOwMRa5RYXdNa1OqDPjUK8zTWfn+7hJhYkAwtHbtkVKRry5iUTNFcX79bXQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pichau\\Desktop\\WebApi-Ticket\\WebApi-Ticket\\WebApi-Ticket\\WebApi-Ticket\\WebApi-Ticket.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pichau\\.nuget\\packages\\evolve\\2.4.0\\evolve.2.4.0.nupkg.sha512",
+    "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\4.1.1\\microsoft.aspnetcore.mvc.versioning.4.1.1.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

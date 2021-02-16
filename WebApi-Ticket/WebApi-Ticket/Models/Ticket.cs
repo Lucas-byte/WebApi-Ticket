@@ -15,5 +15,7 @@ namespace WebApi_Ticket.Models
         [Column("data")]
         public DateTime Data { get; set; }
 
+        [Column("phone")]
+        public string Telefone { get; set; }
     }
 }

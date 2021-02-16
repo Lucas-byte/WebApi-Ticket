@@ -41,6 +41,9 @@ namespace WebApi_Ticket
                 MigrateDatabase(connection);
             }
 
+
+            services.AddApiVersioning();
+
             services.AddScoped<ITicketBusiness, TicketBusinessImplementation>();
             services.AddScoped(typeof(IRepository<>),typeof(GenericRepository<>));
 

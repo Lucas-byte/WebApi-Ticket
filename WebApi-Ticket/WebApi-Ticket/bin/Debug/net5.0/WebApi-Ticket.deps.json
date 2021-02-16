@@ -26,6 +26,7 @@
       "WebApi-Ticket/1.0.0": {
         "dependencies": {
           "Evolve": "2.4.0",
+          "Microsoft.AspNetCore.Mvc.Versioning": "4.1.1",
           "Pomelo.EntityFrameworkCore.MySql": "3.2.0",
           "Serilog": "2.10.0",
           "Serilog.AspNetCore": "3.4.0",
@@ -330,6 +331,17 @@
         },
         "compile": {
           "lib/netstandard2.0/Evolve.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.Versioning/4.1.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.7301.35616"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.dll": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -2693,6 +2705,13 @@
       "sha512": "sha512-nwdDvHtHy8XfLiN/mwpdcX/GpcEC6iMM8Rrbw2faqU48C6DgY8JHLA7OPaKTsUypjH4LMI3ctMhMDRBJCp5T7g==",
       "path": "evolve/2.4.0",
       "hashPath": "evolve.2.4.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Mvc.Versioning/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ioFhRz5gm2Ny+t758Jab638eTG8Uui++klcH00EgBuU/BQbjkbFY+9xw/CkoAChIcrJsoQP2NKDYJ09zN5jR0g==",
+      "path": "microsoft.aspnetcore.mvc.versioning/4.1.1",
+      "hashPath": "microsoft.aspnetcore.mvc.versioning.4.1.1.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",

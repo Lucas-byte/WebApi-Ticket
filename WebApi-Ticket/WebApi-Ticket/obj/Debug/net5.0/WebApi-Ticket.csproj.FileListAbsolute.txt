@@ -43,3 +43,5 @@ C:\Users\Pichau\Desktop\WebApi-Ticket\WebApi-Ticket\WebApi-Ticket\WebApi-Ticket\
 C:\Users\Pichau\Desktop\WebApi-Ticket\WebApi-Ticket\WebApi-Ticket\WebApi-Ticket\bin\Debug\net5.0\Serilog.Sinks.Console.dll
 C:\Users\Pichau\Desktop\WebApi-Ticket\WebApi-Ticket\WebApi-Ticket\WebApi-Ticket\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
 C:\Users\Pichau\Desktop\WebApi-Ticket\WebApi-Ticket\WebApi-Ticket\WebApi-Ticket\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\Pichau\Desktop\WebApi-Ticket\WebApi-Ticket\WebApi-Ticket\WebApi-Ticket\obj\Debug\net5.0\WebApi-Ticket.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Pichau\Desktop\WebApi-Ticket\WebApi-Ticket\WebApi-Ticket\WebApi-Ticket\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll

@@ -5,13 +5,13 @@ using WebApi_Ticket.Models;
 namespace WebApi_Ticket.Controllers
 {
     [ApiController]
-    [ApiVersion("1")]
-    [Route("api/[controller]/v{version:apiVersion}")]
-    public class TicketController : ControllerBase
+    [ApiVersion("2")]
+    [Route("api/ticket/v{version:apiVersion}")]
+    public class Ticket2Controller : ControllerBase
     {
         private readonly ITicketBusiness _ticketBusiness;
 
-        public TicketController(ITicketBusiness ticketBusiness)
+        public Ticket2Controller(ITicketBusiness ticketBusiness)
         {
             _ticketBusiness = ticketBusiness;
         }
