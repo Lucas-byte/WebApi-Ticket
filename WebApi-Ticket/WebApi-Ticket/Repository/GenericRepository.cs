@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using WebApi_Ticket.Models;
 using WebApi_Ticket.Models.Context;
 

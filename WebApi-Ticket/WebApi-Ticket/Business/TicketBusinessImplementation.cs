@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using WebApi_Ticket.Models;
 using WebApi_Ticket.Repository;
-
 namespace WebApi_Ticket.Business
 {
     public class TicketBusinessImplementation : ITicketBusiness
