@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using WebApi_Ticket.Data.Converter.Implementations;
+using WebApi_Ticket.Data.VO;
 using WebApi_Ticket.Models;
 using WebApi_Ticket.Repository;
 namespace WebApi_Ticket.Business
@@ -7,29 +9,35 @@ namespace WebApi_Ticket.Business
     {
         private readonly IRepository<Ticket> _repository;
 
+        private readonly TicketConverter _converter;
         public TicketBusinessImplementation(IRepository<Ticket> repository)
         {
             _repository = repository;
+            _converter = new TicketConverter();
         }
-        public List<Ticket> FindAll()
+        public List<TicketVO> FindAll()
         {
-            return _repository.FindAll();
-        }
-
-        public Ticket FindById(long id)
-        {
-            return _repository.FindByID(id);
+            return _converter.Parse(_repository.FindAll());
         }
 
-
-        public Ticket Create(Ticket ticket)
+        public TicketVO FindById(long id)
         {
-            return _repository.Create(ticket);
+            return _converter.Parse(_repository.FindByID(id));
         }
 
-        public Ticket Update(Ticket ticket)
+
+        public TicketVO Create(TicketVO ticket)
         {
-            return _repository.Update(ticket);
+            var ticketEntity = _converter.Parse(ticket);
+            ticketEntity = _repository.Create(ticketEntity);
+            return _converter.Parse(ticketEntity);
+        }
+
+        public TicketVO Update(TicketVO ticket)
+        {
+            var ticketEntity = _converter.Parse(ticket);
+            ticketEntity = _repository.Update(ticketEntity);
+            return _converter.Parse(ticketEntity);
         }
         public void Delete(long id)
         {

@@ -1,16 +1,17 @@
 ﻿using System.Collections.Generic;
+using WebApi_Ticket.Data.VO;
 using WebApi_Ticket.Models;
 namespace WebApi_Ticket.Business
 {
     public interface ITicketBusiness
     {
-        List<Ticket> FindAll();
+        List<TicketVO> FindAll();
 
-        Ticket FindById(long id);
+        TicketVO FindById(long id);
 
-        Ticket Create(Ticket ticket);
+        TicketVO Create(TicketVO ticket);
 
-        Ticket Update(Ticket ticket);
+        TicketVO Update(TicketVO ticket);
 
         void Delete(long id);
     }

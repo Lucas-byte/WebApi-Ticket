@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebApi_Ticket.Business;
+using WebApi_Ticket.Data.VO;
 using WebApi_Ticket.Models;
 
 namespace WebApi_Ticket.Controllers
@@ -31,7 +32,7 @@ namespace WebApi_Ticket.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Ticket ticket)
+        public IActionResult Post([FromBody] TicketVO ticket)
         {
             if(ModelState.IsValid)
             {
@@ -41,7 +42,7 @@ namespace WebApi_Ticket.Controllers
         }
 
         [HttpPut]
-        public IActionResult Put([FromBody] Ticket ticket)
+        public IActionResult Put([FromBody] TicketVO ticket)
         {
             if (ModelState.IsValid)
             {
